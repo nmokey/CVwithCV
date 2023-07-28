@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+author: Ryan Zheng
 title: Computer Vision with Cute Voles
 email: ryanzheng@nmokey.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   This is a project by Ryan Zheng to adapt an introductory course in Computer Vision to a broader audience!
-baseurl: "/CVwithCV" # the subpath of your site, e.g. /blog
-url: "https://nmokey.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/CVwithCV"
+url: "https://nmokey.com"
 # twitter_username: jekyllrb
-github_username:  nmokey
+github_username: nmokey
 google_analytics: G-8CBPEV91K5
 
 # Build settings
