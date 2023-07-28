@@ -25,7 +25,7 @@ description: >-
   This is a project by Ryan Zheng to adapt an introductory course in Computer Vision to a broader audience!
 baseurl: "/CVwithCV"
 url: "https://nmokey.com"
-# twitter_username: jekyllrb
+twitter_username: nmokeyRyan
 github_username: nmokey
 google_analytics: G-8CBPEV91K5
 
