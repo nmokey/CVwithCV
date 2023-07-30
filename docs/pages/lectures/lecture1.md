@@ -1,0 +1,6 @@
+---
+layout: page
+title: lecture 1
+permalink: /lecture1/
+---
+hi
