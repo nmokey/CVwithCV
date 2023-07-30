@@ -1,4 +1,49 @@
 <head>
+  <style>
+    /* The sidebar menu */
+    .sidenav {
+      height: 100%;
+      /* Full-height: remove this if you want "auto" height */
+      width: 100px;
+      /* Set the width of the sidebar */
+      position: fixed;
+      /* Fixed Sidebar (stay in place on scroll) */
+      z-index: 1;
+      /* Stay on top */
+      top: 55.95px;
+      /* Stay at the top */
+      left: 2%;
+      overflow-x: hidden;
+      /* Disable horizontal scroll */
+      padding-top: 30px;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 0px 0px 8px 0px;
+      text-decoration: none;
+      font-size: 18px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: #111;
+      display: block;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #111;
+    }
+
+    /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+  </style>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,6 +53,6 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include analytics.html -%}
+  {%- include analytics.html -%}
   {%- endif -%}
 </head>
