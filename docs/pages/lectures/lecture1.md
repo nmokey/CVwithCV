@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Lecture 1
+title: Intro to Machine Learning
 permalink: /lecture1/
 ---
 - Machine learning is a **paradigm** of approximating a function from data
