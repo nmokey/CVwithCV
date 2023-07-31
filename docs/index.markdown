@@ -1,12 +1,9 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 ---
 ![Homepage Banner](/assets/images/banner.png){:width="75%"}
 # Welcome to CV with CV!
-For information about this project, please see the [about page]({{ site.baseurl }}/about). This course is adapted from [UC Berkeley CS 198-126](https://youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5). Lessons that aren't linked are still work-in-progress.  
+For information about this project, please see the [about page]({{ site.baseurl }}/about). This course is adapted from [UC Berkeley CS 198-126](https://youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5){:target="_blank"}{:rel="noopener noreferrer"}. Lessons that aren't linked are still work-in-progress.  
 *The course outline is below.* 
 
 | Cluster | Lessons | Summary |
@@ -18,4 +15,4 @@ For information about this project, please see the [about page]({{ site.baseurl 
 | 5 - Potpourri | {::nomarkdown}<ul><li>3D Vision Survey</li><li>Advanced Vision Pretraining</li><li>Stylizing Images</li></ul>{:/} |  |
 | 6 - Sequences and Images | {::nomarkdown}<ul><li>Audio Generation</li><li>Deepfakes</li><li>CLIP</li><li>DALL·E 2</li></ul>{:/} |  |
 
-Also, you can learn more about voles [here](https://en.wikipedia.org/wiki/Vole) :\)
+Also, you can learn more about voles [here](https://en.wikipedia.org/wiki/Vole){:target="_blank"}{:rel="noopener noreferrer"} :\)
