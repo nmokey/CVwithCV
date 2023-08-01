@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 ---
 ![Homepage Banner](/assets/images/banner.png){:width="75%"}
 # Welcome to CV with CV!

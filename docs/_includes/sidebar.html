@@ -1,4 +1,4 @@
-<div class="sidenav">
+<!-- <div class="sidenav">
     {%- for path in page_paths -%}
     {%- assign my_page = site.pages | where: "path", path | first -%}
     {%- if my_page.title -%}
@@ -6,4 +6,19 @@
     {%- endif -%}
     {%- endfor -%}
 </div>
-<!-- css styling for the sidebar is in head.html -->
+css styling for the sidebar is in head.html -->
+
+<nav class="sidenav">
+    <ul>
+        {% for cluster in site.data.navigation.pages %}
+        <li>
+            <a href="" >{{ cluster.title }}</a>
+            <ul>
+                {% for page in cluster.lectures %}
+                <li><a href="{{ page.url }}">{{ page.title | escape }}</a></li>
+                {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>

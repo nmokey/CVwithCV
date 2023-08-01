@@ -36,5 +36,6 @@ permalink: /lecture5/
 - There are usually established architectures for CNNs which involve stacking convolutions with pooling to get a smaller representation of the input, which is then flattened.
 - Images should be normalized during preprocessing from 0-255 to 0-1 to prevent gradients from exploding.
 - You can also artificially create more data from a single image by flipping or adjusting it, which is called **data augmentation**.
-- It is important to periodically save your CNN model (maybe through TensorFlow) as it is training so that you don't lose everything.
+- It is important to periodically save your CNN model (maybe through TensorFlow) as it is training so that you don't lose everything.  
+
 Summary: A convolutional neural network is a model that is great for CV because it allows us to look at local batches of an image at once instead of going pixel by pixel. It is similar to a neural network but each layer is usually convolutional or pooling. A convolutional layer has parameters such as stride, padding, and kernel size. Pooling layers can quickly shrink features without too much information loss, and can take the max or average of each patch. The image tensor is passed through these as its dimensions are shrunk. The final step, classification layers, flatten or pool the output before passing it to an MLP, which has the most parameters.

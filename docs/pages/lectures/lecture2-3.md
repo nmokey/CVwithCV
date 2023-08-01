@@ -3,7 +3,7 @@ layout: lecture
 title: Intro to Deep Learning
 permalink: /lecture2-3/
 ---
- The dot product of two vectors is repeated multiplication between each element and adding at the end.![[Pasted image 20230717170423.png]]
+- The dot product of two vectors is repeated multiplication between each element and adding at the end.![[Pasted image 20230717170423.png]]
 - Matrix-vector multiplication is repeated vector dot products between the rows of W and vector x. (stacked dot products)
 - ![[Pasted image 20230717171427.png]]
 - For vector functions, x is an input vector, y is a label vector, and W, b, and theta are parameters. W for a matrix, b for a vector, and theta for general.
@@ -36,5 +36,6 @@ permalink: /lecture2-3/
 - Ensembling is when you make many different models with random parameters and averaging the predictions, but requires lots of computation and gives little performance.
 - Dropout is when you randomly set a bunch of neurons to zero, so the model has to learn how to use different combinations of neurons. This gives us the same effect of ensembling.
 - Skip connections allows us to build arbitrarily deep networks because we can just pass good information (once our classification is done) to the end of the model.
-- PyTorch uses Numpy can calculate the derivatives of functions at a certain value, so it can be used for backprop and gradient descent.
+- PyTorch uses Numpy can calculate the derivatives of functions at a certain value, so it can be used for backprop and gradient descent.  
+
 Summary: A neural network is made of many layers of neurons which each take in an input vector, calculate a weighted sum using its own weight vector and adds a bias, then passes it on to the next layer, which eventually produces output. The output can be normalized to represent a probability using Softmax, and the results can be assessed with a loss function (produces a scalar). Gradient descent is used to optimize the parameters (weights and biases) in order to minimize the loss, and can be made better using optimizers such as Adam. 

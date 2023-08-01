@@ -3,7 +3,7 @@ layout: lecture
 title: Pretraining and Augmentations
 permalink: /lecture4/
 ---
-Classical machine learning pipeline: take in an input x, feature extraction of features $\phi$, pass into model $f(\phi, \theta)$, to predict an output y.
+- Classical machine learning pipeline: take in an input x, feature extraction of features $\phi$, pass into model $f(\phi, \theta)$, to predict an output y.
 - To make feature extractors automatic instead of handwritten, you can learn the feature extractor using deep learning. 
 - A convolutional layer can extract features from an image, and has parameters that can be learned instead of prewritten.
 - A **deep neural network** combines feature extraction and output prediction to streamline the entire process and have it completely automated (learned from the data).
@@ -18,5 +18,6 @@ Classical machine learning pipeline: take in an input x, feature extraction of f
 - Pretrained networks are good because they tend to be trained on massive datasets, and embeddings can be pre-computed and stored instead of using original high-dimensional data.
 - In unsupervised learning, there are no labels to guide the model's learning. Usually clustering tasks
 - Self-supervised learning has the model create labels from raw data and then train in a supervised manner. It creates labels by hiding parts of input and predicting it.
-- SSL can be used for image orientation, word prediction, waveforms, etc.
+- SSL can be used for image orientation, word prediction, waveforms, etc.  
+
 Summary: The difference between classical machine learning and deep learning is that deep learning allows feature detection to also be learned, and thus combines the processes of feature detection and classification. The network can learn a representation of the input by passing it through convolutional layers, which are feature detectors that learn a feature of th eimage in a hierarchal order. Models can be built off of pretrained models by fine-tuning to the specific task or by freezing early layers of the pretrained model to make it easier to do a new task. 

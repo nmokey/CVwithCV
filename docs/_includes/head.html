@@ -19,6 +19,55 @@
     }
 
     /* The navigation menu links */
+
+    .sidenav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidenav li {
+      display: inline-block;
+    }
+
+    .sidenav li a {
+      display: block;
+      text-decoration: none;
+    }
+
+    .sidenav li a:hover {
+      display: block;
+    }
+
+    .sidenav ul ul {
+      position: absolute;
+      display: none;
+    }
+
+
+    .sidenav ul ul li {
+      display: block;
+    }
+
+    .sidenav li:hover ul {
+      display: block;
+    }
+
+    /* hidden elements on hover */
+    .sidenav ul ul li a {
+      background-color: #f3edd4;
+      font-size: smaller;
+      padding: 5px;
+    }
+
+    .sidenav ul ul li a:hover {
+      text-decoration: underline;
+    }
+
+    .current {
+      background-color: #797979;
+    }
+
     .sidenav a {
       padding: 0px 0px 8px 0px;
       text-decoration: none;

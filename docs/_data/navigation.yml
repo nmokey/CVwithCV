@@ -1,0 +1,30 @@
+pages:
+  - cluster: Intro to Deep Learning
+    title: Intro to Deep Learning
+    lectures:
+      - title: Intro to ML
+        url: /CVwithCV/lecture1
+      - title: Intro to Deep Learning
+        url: /CVwithCV/lecture2-3
+      - title: Pretraining & Augmentations
+        url: /CVwithCV/lecture4
+  - cluster: Essential Computer Vision
+    title: Essential Computer Vision
+    lectures:
+      - title: Intro to CV
+        url: /CVwithCV/lecture5
+      - title: Advanced CV Architectures
+        url: /CVwithCV/lecture6
+      - title: Object Detection
+        url: /CVwithCV/lecture7
+      - title: Semantic Segmentation
+        url: /CVwithCV/lecture8
+  - cluster: Generative Models
+    title: Generative Models
+    lectures:
+      - title: AEs, VAEs, & Generative Modeling
+        url: /CVwithCV/lecture9
+      - title: GANs
+        url: /CVwithCV/lecture10-11
+      - title: Diffusion Models
+        url: /CVwithCV/lecture12
