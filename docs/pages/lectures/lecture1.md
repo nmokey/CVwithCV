@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lecture
 title: Intro to Machine Learning
 permalink: /lecture1/
 ---

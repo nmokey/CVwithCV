@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lecture
 title: Object Detection
 permalink: /lecture7/
 ---
