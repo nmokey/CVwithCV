@@ -1,0 +1,64 @@
+<!-- find indices of current and surrounding pages -->
+{% assign indexCounter = 0 %}
+{% for batch in site.data.navigation.pages %}
+  {% for lecture in batch.lectures %}
+  {% assign fullpageurl = "/CVwithCV" | append: page.url %}
+  {% assign fulllectureurl = lecture.url | append: "/" %}
+      {% if fulllectureurl == fullpageurl %}
+        {% assign thisPage = indexCounter %}
+        {% assign prevIndex = thisPage | minus: 1 %}
+        {% assign nextIndex = thisPage | plus: 1 %}
+        {% break %}
+      {% endif %}
+    {% assign indexCounter = indexCounter | plus: 1 %}
+  {% endfor %}
+{% endfor %}
+
+<!-- assign previous and next pages to variables -->
+{% assign indexCounter = 0 %}
+{% for batch in site.data.navigation.pages %}
+    {% for lecture in batch.lectures %}
+        {% if indexCounter == prevIndex %}
+            {% assign prevPage = lecture %}
+        {% endif %}
+
+        {% if indexCounter == nextIndex %}
+            {% assign nextPage = lecture %}
+        {% endif %}
+        {% assign indexCounter = indexCounter | plus: 1 %}
+    {% endfor %}
+{% endfor %}
+
+<style>
+    .prevnextContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px
+    }
+
+    .prevnext {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 10%;
+        background-color: #f3edd4;
+        color:black;
+    }
+
+    .prevnext:hover {
+        filter: brightness(95%);
+        text-decoration: none;
+    }
+</style>
+
+</br>
+<div class = "prevnextContainer">
+    {% if prevPage.url != thisPage.url %}
+    <a href="{{ prevPage.url }}" class="prevnext">&laquo; Previous</a>
+    {% endif %}
+
+    {% if nextPage.url != thisPage.url %}
+    <a href="{{ nextPage.url }}" class="prevnext">Next &raquo;</a>
+    {% endif %}
+</div>
