@@ -52,7 +52,6 @@
         display: none;
     }
 
-
     .sidenav ul ul li {
         display: block;
     }
@@ -69,7 +68,7 @@
     }
 
     .sidenav ul ul li a:hover {
-        text-decoration: underline;
+        filter: brightness(95%);
     }
 
     .current {
@@ -104,6 +103,7 @@
 
 <nav class="sidenav">
     <ul>
+        <li><a href="/CVwithCV/about">About this Project</a></li>
         {% for cluster in site.data.navigation.pages %}
         <li>
             <a>{{ cluster.title }}</a>
