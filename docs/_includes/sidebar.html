@@ -21,8 +21,10 @@
         top: 55.95px;
         /* Stay at the top */
         left: 2%;
-        overflow-x: hidden;
+
+        /* overflow-x:auto; */
         /* Disable horizontal scroll */
+        
         padding-top: 30px;
     }
 
@@ -65,14 +67,11 @@
         background-color: #f3edd4;
         font-size: smaller;
         padding: 5px;
+        border-radius: 5%;
     }
 
     .sidenav ul ul li a:hover {
         filter: brightness(95%);
-    }
-
-    .current {
-        background-color: #797979;
     }
 
     .sidenav a {
@@ -83,11 +82,10 @@
         color: #111;
         display: block;
     }
-
     /* When you mouse over the navigation links, change their color */
-    .sidenav a:hover {
+    /* .sidenav a:hover {
         color: #111;
-    }
+    } */
 
     /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
     @media screen and (max-height: 450px) {
@@ -105,9 +103,9 @@
     <ul>
         <li><a href="/CVwithCV/about">About this Project</a></li>
         {% for cluster in site.data.navigation.pages %}
-        <li>
+        <li class = "dropdown">
             <a>{{ cluster.title }}</a>
-            <ul>
+            <ul class = "dropdown-content">
                 {% for page in cluster.lectures %}
                 <li><a href="{{ page.url }}">{{ page.title | escape }}</a></li>
                 {% endfor %}

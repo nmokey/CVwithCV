@@ -6,7 +6,6 @@
   border-bottom: 2px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
   background-color: $background-color; // CUSTOM: Make header opaque
-  // Positioning context for the mobile navigation icon
   position: fixed; // CUSTOM: keep header always at top
   width: 100%;
 }

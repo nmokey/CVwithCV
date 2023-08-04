@@ -82,7 +82,9 @@ main {
   */
 img {
     max-width: 100%;
-    vertical-align: middle;
+    display: block; // CUSTOM TO CENTER IMAGES
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -267,7 +269,7 @@ table {
     text-align: $table-text-align;
     color: lighten($text-color, 18%);
     border-collapse: collapse;
-    border: 1px solid $grey-color-light;
+    border: 2px solid $grey-color-light;
 
     tr {
         &:nth-child(even) {

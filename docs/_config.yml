@@ -23,6 +23,8 @@ title: Computer Vision with Cute Voles
 email: ryanzheng@nmokey.com
 description: >-
   This is a project by Ryan Zheng to adapt an introductory course in Computer Vision to a broader audience!
+footerDescription: >-
+  Permission from UC Berkeley for this course is pending!
 baseurl: "/CVwithCV"
 url: "https://nmokey.com"
 twitter_username: nmokeyRyan
