@@ -12,7 +12,7 @@ permalink: /lecture2-3/
 - the **perceptron** is the mathematical approximation of a neuron, which takes in many weighted inputs and takes the sum, then activate with a step function (ReLU function).
 - The $w_{0}$ term is the bias value (b)![[Pasted image 20230717183407.png]]
 - This can be compressed as the dot product between a weight vector and input vector plus a bias: $b+\bar{w} \intercal \bar{x}$.
-- So the perceptron function is $f(\bar{x}, \bar{w}, b) = ReLU(b+\bar{w} \intercal \bar{x})$.
+- So the perceptron function is $$f(\bar{x}, \bar{w}, b) = ReLU(b+\bar{w} \intercal \bar{x})$$.
 - A **[[Neural Network]]** stacks and cascades perceptrons. Each stack is called a layer, and the middle layers are called hidden layers. Each layer takes inputs and weighs and sums them according to the perceptron function.
 - A layer of perceptrons is a vector where each row is the equation of a different perceptron.![[Pasted image 20230717184527.png]]
 - Each perceptron in the layer can be compacted further: The whole perceptron function  becomes $f(\bar{x}, \bar{w}, b) = ReLU(W\bar{x}+\bar{b})$. This is done by each perceptron in the layer, and each layer step is called a **forward pass**. (x is input, w is weights, and b is the bias)
