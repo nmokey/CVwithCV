@@ -35,12 +35,8 @@ google_analytics: G-8CBPEV91K5
 theme: minima
 plugins:
   - jekyll-seo-tag
-  - jekyll_picture_tag
-  - jekyll-youtube
-  - jektex
-  - jekyll-pdf-embed
-  - jekyll-mermaid
   - jekyll-spaceship
+  - jekyll-pdf-embed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
