@@ -3,7 +3,7 @@ layout: page
 ---
 ![Homepage Banner](/assets/images/banner.png){:width="80%"}
 # Welcome to CV with CV!
-For information about this project, please see the [about page]({{ site.baseurl }}/about). This course is adapted from [UC Berkeley CS 198-126](https://youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5){:target="_blank"}{:rel="noopener noreferrer"}. Lessons that aren't linked are still work-in-progress.  
+For information about this project, please see the [about page]({{ site.baseurl }}/about). This course is adapted from [UC Berkeley CS 198-126](https://youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5){:target="_blank"}{:rel="noopener noreferrer"} with permission. Lessons that aren't linked are still work-in-progress.  
 
 # Course Outline
 

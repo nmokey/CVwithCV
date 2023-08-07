@@ -3,7 +3,7 @@ layout: page
 title: About this Project
 permalink: /about/
 ---
-*This course is currently a work in progress, and permission from the writers of UC Berkeley CS 198-126 is pending.*  
+*This course is currently a work in progress, and is adapted with permission from the creators of UC Berkeley CS 198-126.*  
 I'm [Ryan Zheng](https://nmokey.com){:target="_blank"}{:rel="noopener noreferrer"}, a rising senior in the class of 2024 at Amador Valley High School.  
 
 ### Project Philosophy:
