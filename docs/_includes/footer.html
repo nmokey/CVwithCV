@@ -16,18 +16,23 @@
             {%- endif -%}
           </li>
           {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li><a class="u-email" href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer">{{ site.email }}</a></li>
           {%- endif -%}
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
+        <a href="https://github.com/nmokey/CVwithCV/watchers" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.shields.io/github/watchers/nmokey/CVwithCV?style=social" alt="watchers" style="display:block; margin-left:0;">
+        </a>
       </div>
 
       <div class="footer-col footer-col-3">
         <p>{{- site.footerDescription | escape -}}</p>
+        <p>{{- site.description | escape -}}</p>
       </div>
+
     </div>
 
   </div>

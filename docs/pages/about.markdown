@@ -3,7 +3,7 @@ layout: page
 title: About this Project
 permalink: /about/
 ---
-*This course is currently a work in progress, and is adapted with permission from the creators of [UC Berkeley CS 198-126](https://youtube.com/playlist?list=PLzWRmD0Vi2KVsrCqA4VnztE4t71KnTnP5){:target="_blank"}{:rel="noopener noreferrer"}.*  
+*This course is currently a work in progress, and is adapted with permission from the creators of [UC Berkeley CS 198-126](https://ml-berkeley.notion.site/Modern-Computer-Vision-and-Deep-Learning-CS-198-126-0e28ffea0c4140f28399dd823c527bec){:target="_blank"}{:rel="noopener noreferrer"}.*  
 I'm [Ryan Zheng](https://nmokey.com){:target="_blank"}{:rel="noopener noreferrer"}, a rising senior in the class of 2024 at Amador Valley High School.  
 
 ### Project Philosophy:
