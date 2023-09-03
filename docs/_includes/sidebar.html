@@ -58,7 +58,8 @@
         background-color: #f3edd4;
         font-size: smaller;
         padding: 5px;
-        border-radius: 5%;
+        border-radius: 5px;
+        /* box-shadow: 1px 2px 10px #a9a492a5; */
     }
 
     .sidenav ul ul li a:hover {
@@ -93,6 +94,7 @@
 <nav class="sidenav">
     <ul>
         <li><a href="/CVwithCV/about">About this Project</a></li>
+        <li><a href="/CVwithCV/courseIntro">Course Introduction</a></li>
         {% for cluster in site.data.navigation.pages %}
         <li class = "dropdown">
             <a>{{ cluster.title }}</a>
